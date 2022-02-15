@@ -22,3 +22,8 @@ services:
       MYSQL_DATABASE: cities
       MYSQL_ROOT_PASSWORD: root
 
+  frontend:
+    image: frontend
+    container_name: frontend
+    ports:
+      - 3000:80
